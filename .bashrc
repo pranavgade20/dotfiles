@@ -35,6 +35,10 @@ alias IDEA='export _JAVA_AWT_WM_NONREPARENTING=1 && idea'
 alias PYCHARM='export _JAVA_AWT_WM_NONREPARENTING=1 && pycharm'
 alias studio='export _JAVA_AWT_WM_NONREPARENTING=1 && ~/android-studio/bin/studio.sh'
 
+alias cdj='cd ~/Desktop/Programs/Java'
+alias cd..='cd ..'
+alias cd.='cd ..'
+
 # adding my git ssh keys
 eval "$(ssh-agent -s)" > /dev/null
 ssh-add ~/.ssh/git_id_rsa > /dev/null
