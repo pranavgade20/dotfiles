@@ -1,0 +1,15 @@
+[user]
+	email = pranavgade20@gmail.com
+	name = Pranav Gade
+
+[core]
+	editor = vim
+	autocrlf = input
+[http]
+	postBuffer = 524288000
+[alias]
+	s = status
+	p = push
+	a = add *
+	c = commit -am "commit message"
+	all = !git a && git c && git p
