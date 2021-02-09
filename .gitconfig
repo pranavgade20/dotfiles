@@ -11,5 +11,5 @@
 	s = status
 	p = push
 	a = add *
-	c = commit -am "commit message"
+	c = commit -m 'commit message'
 	all = !git a && git c && git p
